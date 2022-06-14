@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+    <link rel="stylesheet" href="main2.css">
+    <script src="variables.js"></script>
+    <script src="productos.class.js"></script>
+    <script src="arrayproductos.js"></script>
+    <title>TECH LAND.</title>
+</head>
+<body data-theme="light">
+    <article class="container">
+        <h1>Array de Objetos</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>DESCRIPCION</th>
+                    <th>IMPORTE</th>
+                    <th>FINAL</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1234</td>
+                    <td>DESCRIPCION DE MI PRODUCTO</td>
+                    <td>1000.00</td>
+                    <td>1210.00</td>
+                </tr>
+                <tr>
+                    <td>1234</td>
+                    <td>DESCRIPCION DE MI PRODUCTO</td>
+                    <td>1000.00</td>
+                    <td>1210.00</td>
+                </tr>
+                <tr>
+                    <td>1234</td>
+                    <td>DESCRIPCION DE MI PRODUCTO</td>
+                    <td>1000.00</td>
+                    <td>1210.00</td>
+                </tr>
+                <tr>
+                    <td>1234</td>
+                    <td>DESCRIPCION DE MI PRODUCTO</td>
+                    <td>1000.00</td>
+                    <td>1210.00</td>
+                </tr>
+            </tbody>
+        </table>
+        <footer>
+            <button role="button" class="primary" onclick="listarProductos()">LISTAR PRODUCTOS</button>
+            <button role="button" class="secondary" onclick="buscarProducto()">BUSCAR PRODUCTO</button>
+            <button role="button" class="secondary" onclick="filtrarProductos()">FILTRAR PRODUCTOS</button>
+            <button role="button" class="contrast" onclick="calcularCarrito()">CALCULAR CARRITO</button>
+        </footer>
+    </article>
+</body>
+</html>
